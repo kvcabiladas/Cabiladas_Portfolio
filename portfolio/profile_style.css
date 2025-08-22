@@ -1,0 +1,57 @@
+section [class^= "container"]{
+   padding: 4rem 2rem;
+}
+
+@media screen and (min-width: 1024px){
+   section [class^= "container"]{
+   padding: 4rem;
+}
+   nav [class^= "container"]{
+   padding: 0 4rem;
+}
+}
+
+/*nav*/
+
+.navbar{
+   background-color: white;
+}
+
+.navbar-nav .nav-link{
+   color: black;
+   font-size: 1.1rem;
+}
+
+@media screen and (min-width: 1024px) {
+   .navbar-nav .nav-item{
+   padding: 0 1rem;
+}
+.navbar-brand{
+   font-size: 1.5rem;
+}
+}
+
+
+/*kite*/
+
+section.kite{
+   background-color: #b4cee5;
+   padding-top: 72px;
+}
+
+@media screen and (max-width: 576px) {
+   section.kite{
+      text-align: center;
+   }
+   section.kite img{
+      width: 70%; 
+   }
+   
+}
+
+button.btn{
+   background-color: #387393;
+   color: rgb(255, 255, 255);
+   box-shadow: 4px 4px black;
+}
+
